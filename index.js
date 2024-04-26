@@ -31,12 +31,11 @@ app.get('/', (req, res) => {
   res.send('Status bot của bạn đã được thay đổi✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Được kích hoạt bởi MinhMinh.`);
 });
 
 
-const statusMessages = ["Minh Minh mãi đỉnh🤘","Lâm mãi ngu và béo🥴","Chúc mọi người một ngày vui vẻ❤️"];
+const statusMessages = ["Minh Minh mãi đỉnh🤘","Lâm mãi ngu và béo🥴","Chúc một ngày vui vẻ❤️"];
 
 
 let currentIndex = 0;
@@ -91,9 +90,7 @@ function updateStatusAndSendMessages() {
 }
 
 client.once('ready', () => {
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot ${client.user.tag} của bạn đã sẵn sàng`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨HAPPY NEW YEAR MY DEAR FAMILY`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️WELCOME TO 2024`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot ${client.user.tag} của bạn đã sẵn sàng!`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
