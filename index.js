@@ -18,7 +18,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Minh Minh mãi đỉnh🤘","Lâm mãi ngu và béo🥴","Chúc một ngày vui vẻ❤️"];
+const statusMessages = ["Minh Minh mãi đỉnh🤘","Fb: Quang Minh","Ins: quangminh.2005","Discord: minhminhne2"];
 
 
 let currentIndex = 0;
